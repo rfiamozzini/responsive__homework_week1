@@ -5,11 +5,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  max-width: 800px;
-  margin: 60px auto;
-}
-
 h1,
 h2,
 h3 {
@@ -51,16 +46,6 @@ h3 {
   color: var(--third-color);
 }
 
-p {
-  text-align: center;
-  padding: 20px;
-  margin: 10px;
-  font-size: 18px;
-  line-height: 1.5;
-  border-radius: 4px;
-  background-color: var(--secondary-color);
-}
-
 #back-homepage {
   display: flex;
   justify-content: center;
@@ -75,4 +60,15 @@ p {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
+}
+
+.launch-links {
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--third-color);
 }
