@@ -63,7 +63,7 @@ h3 {
 }
 
 .launch-links {
-  margin-top: 50px;
+  display: inline-block;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
